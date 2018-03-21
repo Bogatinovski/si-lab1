@@ -1,0 +1,24 @@
+mkdir lab1
+cd lab1 
+notepad l1.txt
+git config --global user.name "Dejan"
+git config --global user.email "bogatinovski.dejan@gmail.com"
+git init
+git add l1.txt
+git commit -m "Initial commit"
+notepad l1.txt
+git add l1.txt
+git commit -m "modify l1.txt"
+git remote add origin https://github.com/Bogatinovski/si-lab1.git
+git push -u origin master
+git checkout l1.txt
+git checkout -b logging
+git log >> log.txt
+git add log.txt
+git commit -m "Add log file"
+git push -u origin logging
+git checkout master
+git merge logging
+git push -u origin master
+git checkout -b allcommands
+notepad commands.txt
