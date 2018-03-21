@@ -1,0 +1,11 @@
+commit 11ea9a6c7dc6b66b843a46a76ee92b04149ef6f2
+Author: Dejan <bogatinovski.dejan@gmail.com>
+Date:   Wed Mar 21 18:56:51 2018 +0100
+
+    modify l1.txt
+
+commit bd044d9bbf78b290f6af48d994d0aae55572ea48
+Author: Dejan <bogatinovski.dejan@gmail.com>
+Date:   Wed Mar 21 18:54:41 2018 +0100
+
+    Initial commit
